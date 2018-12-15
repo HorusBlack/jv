@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Small Modal</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Inicio de sesión</h4>
+                    <img src="img/estafeta.png" alt="Estafeta" width="auto" height="50px">
+                    <button type="submit" class="btn btn-primary">Proceder a la compra <i class="fa fa-chevron-right"></i>
+                    </button>
+                    <!--OBSERVACIONES
+                      
+                        //Lista de ventas en backend
+                    >Buscar forma de que la pagina aparesca en los primeros resultados (Si se puede pagar para que google la ponga)
+                    >Determinar como se va a disminuir el stock, si sera cuando el automatico o manual por el administrador
+                    >PENDIENTE LA DISMINUCIÓN DEL STOCK
+                    
+                    >Funciones adicionales de algunos botones (como deshabilitarlos cuando ya complieron su funcion (envio))
+                    >Función del JS para validar que se envia un numero y de paso que no este vacio en los numeros de guia
+                    >Las migas de pan en las nuevas ventanas
+                    >Poner mas detalles a los correos que se envian (imagenes)
+                    >mostrar un registro de compras en la lista de ventas
+                    
+                    Extras{
+                                          
+                        *Marcar permisos para administrar el sitio web
+                        
+                        *EL ADMINISTRADOR DE ARCHIVOS EN BACKEND NO FUNCIONA (PENDIENTE)
+                             <button type="button" class="btn btn-primary" value="Browse Server" onclick="BrowseServer(' . $img3 . ');"><i class="fa fa-cloud-upload "></i> Subir/Buscar</button>
+                        
+                    }
+                    >POSIBLEMENTE SE CAMBIE EL COLOR
+                   pass-> 1w2qaxsz
+
+                    https://scif.tupaginaonline.net.ve/ver1.0/
+
+                    -----------------------------------
+
+                    {
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "php.executablePath": "C:/xampp/php/php.exe",
+    "window.zoomLevel": -1,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "vscode-great-icons",
+    "editor.minimap.enabled": true,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 14,
+    "workbench.sideBar.location": "left",
+    "editor.renderIndentGuides": true,
+    "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1539098556449,
+    "workbench.startupEditor": "welcomePage",
+    "git.autofetch": true,
+    "workbench.editor.closeEmptyGroups": false,
+    "highlight-matching-tag.enabled": true,
+    "editor.renderLineHighlight": "all",
+    "breadcrumbs.enabled": true,
+    "workbench.colorTheme": "Abyss",
+    "materialTheme.fixIconsRunning": false,
+    "window.menuBarVisibility": "toggle",
+    "html.format.wrapAttributes": "aligned-multiple",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 108000,
+    "editor.tabSize": 6,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "line-thin",
+    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "solid",
+    "php.validate.run": "onType"
+}
+
+                    
+                -->
+                <form action="payu/confirmation.php" method="POST">
+                    <label for="">merchant_id</label>
+                    <input type="text" name="merchant_id" id="">
+                    <label for="">reference_sale</label>
+                    <input type="text" name="reference_sale" id="">
+                    <label for="">value</label>
+                    <input type="text" name="value" id="">
+                    <label for="">currency</label>
+                    <input type="text" name="currency" id="">
+                    <label for="">state_pol</label>
+                    <input type="text" name="state_pol" id="">
+                    <label for="">sign</label>
+                    <input type="text" name="sign" id="">
+                    <input type="submit" value="Checar">
+                </form>
+                                    
+                <a href=""></a>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                </div>
+                <form action="">
+
+                    <input type="checkbox" name="checkbox" id="checkbox_id" value="value" checked>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button></button>
+</body>
+</html>
